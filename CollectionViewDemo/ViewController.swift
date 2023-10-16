@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         animalCV.dataSource = self
         animalCV.delegate = self
         populateData()
+        print("view did load executed")
     }
     func populateData()
     {
